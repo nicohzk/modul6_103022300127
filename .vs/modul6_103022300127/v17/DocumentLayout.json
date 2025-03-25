@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ACER\\source\\repos\\modul6_103022300127\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AADA50A4-AF38-4629-87B5-3596AC74ECC7}|modul6_103022300127\\modul6_103022300127.csproj|c:\\users\\acer\\source\\repos\\modul6_103022300127\\modul6_103022300127\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AADA50A4-AF38-4629-87B5-3596AC74ECC7}|modul6_103022300127\\modul6_103022300127.csproj|solutionrelative:modul6_103022300127\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ACER\\source\\repos\\modul6_103022300127\\modul6_103022300127\\Program.cs",
+              "RelativeDocumentMoniker": "modul6_103022300127\\Program.cs",
+              "ToolTip": "C:\\Users\\ACER\\source\\repos\\modul6_103022300127\\modul6_103022300127\\Program.cs",
+              "RelativeToolTip": "modul6_103022300127\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T23:41:05.635Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
