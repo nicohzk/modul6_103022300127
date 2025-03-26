@@ -1,4 +1,7 @@
 ﻿
+using System.Diagnostics.Contracts;
+using System.Linq.Expressions;
+
 class SayaTubeUser {
     private int id;
     private List<SayaTubeVideo> uploadedVideos;
@@ -6,9 +9,10 @@ class SayaTubeUser {
 
     public SayaTubeUser(string a)
     {
+        if (a == null || a.Length >= 100) throw new ArgumentException("Username Tidak Valid");
         this.Username = a;
         Random x = new Random();
-        this.id = x.Next(1, 99999);
+        this.id = x.Next(10000, 99999);
         uploadedVideos = new List<SayaTubeVideo>();
     }
 
@@ -21,15 +25,25 @@ class SayaTubeUser {
         return x;
     }
     public void AddVideo(SayaTubeVideo o) {
+        if (o == null || o.GetplayCount() >= int.MaxValue) throw new ArgumentException("UploadedVideos Tidak Valid");
         uploadedVideos.Add(o);
     }
 
     public void PrintAllPlaycount() {
         Console.WriteLine("Username: " + this.Username);
+        int Count = 0;
         for (int i = 0; i < uploadedVideos.Count; i++) {
+
             Console.WriteLine("Video " + (i+1) + ": ");
             uploadedVideos[i].PrintVideoDetails();
+            Count++;
+            if (Count > 8)
+            {
+                throw new ArgumentException("Jumlah video maksimal yang di-print adalah 8");
+            }
+
         }
+
     }
 }
 
@@ -41,6 +55,8 @@ class SayaTubeVideo
 
     public SayaTubeVideo(string a)
     {
+        if (a == null || a.Length > 200) throw new ArgumentException("Judul tidak valid");
+
         this.title = a;
         Random x = new Random();
         id = x.Next(1, 99999);
@@ -49,7 +65,18 @@ class SayaTubeVideo
 
     public void IncreaseVideoPlayCount(int x)
     {
-        this.playcount += x;
+        if (x <= 0 || x >= 25000000) throw new ArgumentException("Penambahan PlayCount Tidak Valid");
+        try
+        {
+            checked 
+            {
+                this.playcount += x;
+            }
+        }
+        catch(OverflowException e)
+        {
+            Console.WriteLine("Error: Play count melebihi batas maksimum integer");
+        }
     }
 
     public void PrintVideoDetails()
@@ -66,6 +93,7 @@ class system
 {
     public static void Main()
     {
+        
         SayaTubeUser x = new SayaTubeUser("Hizkia");
         SayaTubeVideo a = new SayaTubeVideo("Review Film 1 oleh Hizkia.");
         SayaTubeVideo b = new SayaTubeVideo("Review Film 2 oleh Hizkia.");
@@ -89,7 +117,9 @@ class system
         x.AddVideo(i);
         x.AddVideo(j);
 
-        a.IncreaseVideoPlayCount(100);
+        for (int count = 0; count < 100; count++) {
+            a.IncreaseVideoPlayCount(24000000);
+        }
         a.PrintVideoDetails();
 
         x.PrintAllPlaycount();
