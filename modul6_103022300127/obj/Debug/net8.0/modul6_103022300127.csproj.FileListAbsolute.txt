@@ -1,0 +1,15 @@
+C:\Users\ACER\source\repos\modul6_103022300127\modul6_103022300127\bin\Debug\net8.0\modul6_103022300127.exe
+C:\Users\ACER\source\repos\modul6_103022300127\modul6_103022300127\bin\Debug\net8.0\modul6_103022300127.deps.json
+C:\Users\ACER\source\repos\modul6_103022300127\modul6_103022300127\bin\Debug\net8.0\modul6_103022300127.runtimeconfig.json
+C:\Users\ACER\source\repos\modul6_103022300127\modul6_103022300127\bin\Debug\net8.0\modul6_103022300127.dll
+C:\Users\ACER\source\repos\modul6_103022300127\modul6_103022300127\bin\Debug\net8.0\modul6_103022300127.pdb
+C:\Users\ACER\source\repos\modul6_103022300127\modul6_103022300127\obj\Debug\net8.0\modul6_103022300127.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\source\repos\modul6_103022300127\modul6_103022300127\obj\Debug\net8.0\modul6_103022300127.AssemblyInfoInputs.cache
+C:\Users\ACER\source\repos\modul6_103022300127\modul6_103022300127\obj\Debug\net8.0\modul6_103022300127.AssemblyInfo.cs
+C:\Users\ACER\source\repos\modul6_103022300127\modul6_103022300127\obj\Debug\net8.0\modul6_103022300127.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\modul6_103022300127\modul6_103022300127\obj\Debug\net8.0\modul6_103022300127.sourcelink.json
+C:\Users\ACER\source\repos\modul6_103022300127\modul6_103022300127\obj\Debug\net8.0\modul6_103022300127.dll
+C:\Users\ACER\source\repos\modul6_103022300127\modul6_103022300127\obj\Debug\net8.0\refint\modul6_103022300127.dll
+C:\Users\ACER\source\repos\modul6_103022300127\modul6_103022300127\obj\Debug\net8.0\modul6_103022300127.pdb
+C:\Users\ACER\source\repos\modul6_103022300127\modul6_103022300127\obj\Debug\net8.0\modul6_103022300127.genruntimeconfig.cache
+C:\Users\ACER\source\repos\modul6_103022300127\modul6_103022300127\obj\Debug\net8.0\ref\modul6_103022300127.dll
